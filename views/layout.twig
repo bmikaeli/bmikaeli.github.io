@@ -5,48 +5,29 @@
     {#<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">#}
 
     <title>Baptiste Mikaelian</title>
-    <link rel="stylesheet" type="text/css" href="semantic/ui/dist/semantic.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/semantic/ui/dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
     <script src="semantic/ui/dist/semantic.js"></script>
 </head>
 <body>
 <div class="main container all">
-    <div class="ui white menu three item">
-        <a class="active two item">
+    <div class="ui blue inverted large menu three item">
+        <a class="{% if tab ==  'index' %} active {% endif %} item" href="/">
             <i class="home icon"></i>Home
         </a>
-        <a class="item">
+        <a class="item {% if tab ==  'skills' %} active {% endif %}" href="/skills">
             <i class="list icon"></i>Skills
         </a>
-        <a class="item">
+        <a class="item {% if tab ==  'contact' %} active {% endif %}" href="/contact">
             <i class="mail icon"></i>Contact
         </a>
     </div>
-    <div class="ui grid">
-        <div class="seven wide column"></div>
-        <div class="two wide column all">
-            <img class="ui circular middle aligned large image" src="picture/baptiste.jpg">
+    <br>
 
-            <h3>Baptiste Mikaelian</h3>
+    <div>{% block content %}{% endblock %}</div>
 
-            <p>
-                <a href="https://www.linkedin.com/profile/view?id=278011128" target="_blank">
-                    <i class="linkedin big inverted icon"></i>
-                </a>
-                <a href="https://github.com/bmikaeli" target="_blank">
-                    <i class="github big inverted icon"></i>
-                </a>
-                <a href="https://twitter.com/Barzacks" target="_blank">
-                    <i class="twitter inverted big icon"></i>
-                </a>
-                <a href="https://plus.google.com/+BaptisteMikaelian" target="_blank">
-                    <i class="google plus inverted big icon"></i>
-                </a>
-            </p>
-        </div>
-    </div>
 </div>
 </body>
 </html>
