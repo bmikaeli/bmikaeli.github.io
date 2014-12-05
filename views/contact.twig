@@ -1,6 +1,53 @@
 {% extends 'layout.twig' %}
 {% block content %}
 
+    <form method="post">
+        <div class="ui form inverted">
+            <h4 class="ui dividing header inverted"><i class="mail inverted icon"></i> Formulaire de contact</h4>
+
+
+            <div class="two fields">
+
+                <div class="field">
+                    <div class="two fields">
+                        <div class="required field">
+                            <label>Nom</label>
+                            <input name="nom" placeholder="Nom" type="text">
+                        </div>
+                        <div class="field required">
+                            <label>Prenom</label>
+                            <input name="prenom" placeholder="Prenom" type="text">
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="field required">
+                        <label>Adresse email</label>
+                        <input name="email" placeholder="Email" type="email">
+                    </div>
+                    <br>
+
+                    <div class="two fields">
+                        <div class="required field">
+                            <label>Sujet</label>
+                            <input name="sujet" placeholder="Sujet" type="text">
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="two field required">
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                    <br>
+
+                    <div class="field right">
+                        <input name="submit" class="ui submit blue button" type="submit" value="Envoyer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
 
 {% endblock %}
 

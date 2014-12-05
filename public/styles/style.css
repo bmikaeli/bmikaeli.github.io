@@ -21,3 +21,14 @@ h3
 {
     color: #b1b3ba;
 }
+
+#main
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.center
+{
+    text-align: center;
+    color: white;
+}

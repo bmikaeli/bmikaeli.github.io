@@ -3,6 +3,7 @@
         "silex/silex": "~1.2",
         "symfony/twig-bridge": "~2.3",
         "semantic/ui": "1.0.0",
-        "twig/twig": "~1.12"
+        "twig/twig": "~1.12",
+        "swiftmailer/swiftmailer": ">=4.1.2,<4.2-dev"
     }
 }

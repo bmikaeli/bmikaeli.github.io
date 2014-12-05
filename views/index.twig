@@ -1,29 +1,47 @@
 {% extends 'layout.twig' %}
 {% block content %}
 
-    <div class="ui grid">
-        <div class="six wide column"></div>
-        <div class="four wide column all" style="text-align: center">
-            <img class="ui circular middle aligned small image" src="picture/baptiste.jpg">
+    <div class="ui form inverted">
+        <div class="ui five fields">
+            <div class="field">&nbsp;</div>
+            <div class="field">&nbsp;</div>
+            <div class="field center">
+                <img class="ui circular middle aligned small image" src="picture/baptiste.jpg">
 
-            <h1>Baptiste Mikaelian</h1>
+                <div id="main">
 
-            <h2 class="ui red dividing inverted header"></h2>
+                    <h1>Baptiste Mikaelian</h1>
+                    <p>Student at <a href="http://42.fr"> @42BornToCode</a></p>
+                    <p>WebDevelopper at <a href="http://testapic.com">@Testapic</a></p>
+                    <p>06 68 10 44 82</p>
+                    <p><a href="mailto:baptiste.mikaelian@gmail.com">baptiste.mikaelian@gmail.com</a></p>
 
-            <p>
-                <a href="https://www.linkedin.com/profile/view?id=278011128" target="_blank">
-                    <i class="linkedin big inverted icon"></i>
-                </a>
-                <a href="https://github.com/bmikaeli" target="_blank">
-                    <i class="github big inverted icon"></i>
-                </a>
-                <a href="https://twitter.com/Barzacks" target="_blank">
-                    <i class="twitter inverted big icon"></i>
-                </a>
-                <a href="https://plus.google.com/+BaptisteMikaelian" target="_blank">
-                    <i class="google plus inverted big icon"></i>
-                </a>
-            </p>
+                    <h2 class="ui red dividing inverted header"></h2>
+
+                    <p>
+                        <a href="https://www.linkedin.com/profile/view?id=278011128" target="_blank">
+                            <i class="linkedin big inverted icon popup" data-content="Linkedin" data-variation="inverted" data-position="bottom right"></i>
+                        </a>
+                        <a href="https://github.com/bmikaeli" target="_blank">
+                            <i class="github big inverted icon popup"  data-content="GitHub" data-variation="inverted" data-position="bottom center"></i>
+                        </a>
+                        <a href="https://twitter.com/Barzacks" target="_blank">
+                            <i class="twitter inverted big icon popup"  data-content="Twitter" data-variation="inverted" data-position="bottom center"></i>
+                        </a>
+                        <a href="https://plus.google.com/+BaptisteMikaelian" target="_blank">
+                            <i class="google plus inverted big icon popup"  data-content="Google +" data-variation="inverted" data-position="bottom left"></i>
+                        </a>
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <div class="field">&nbsp;</div>
+            <div class="field">&nbsp;</div>
         </div>
     </div>
+
+    {#<div class="four wide column all" style="text-align: center">#}
+
+
+    {#</div>#}
 {% endblock %}
