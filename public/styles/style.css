@@ -1,34 +1,29 @@
-body{
+body {
     background-image: url("../picture/background_paris.jpg");
     background-position: left;
     background-size: cover;
 }
 
-.all
-{
+.all {
     position: absolute;
     top: 0;
     bottom: 10px;
     left: 50px;
     right: 50px;
 }
+
 img {
     border: 2px;
     border-style: solid;
     border-color: #ffffff;
 }
-h3
-{
-    color: #b1b3ba;
-}
 
-#main
-{
+#main {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
 }
-.center
-{
+
+.center {
     text-align: center;
     color: white;
 }
