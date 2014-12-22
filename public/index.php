@@ -3,7 +3,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 
 $app = new Silex\Application();
-$app['debug'] = true;
+//$app['debug'] = true;
 
 new \Silex\Provider\TwigServiceProvider();
 
@@ -53,6 +53,13 @@ $skills->get('/', function () use ($app){
     ));
 });
 
+$parcours = $app['controllers_factory'];
+$parcours->get('/', function () use ($app){
+    return $app['twig']->render('parcours.twig', array(
+        'tab' => 'parcours',
+    ));
+});
+
 $app->get('/', function () use ($app){
     return $app['twig']->render('index.twig', array(
         'tab' => 'index',
@@ -60,6 +67,7 @@ $app->get('/', function () use ($app){
 });
 
 $app->mount('/contact', $contact);
+$app->mount('/parcours', $parcours);
 $app->mount('/skills', $skills);
 $app->run();
 ?>

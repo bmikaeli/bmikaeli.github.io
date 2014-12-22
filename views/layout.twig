@@ -2,24 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8"/>
+    <meta name="description" content="Baptiste Mikaelian - WebDeveloper - AdminSys">
     {#<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">#}
-
+    <meta name="keywords"
+          content="baptiste, mikaelian, webdeveloper, french, baptiste mikaelian, developpeur, web, 42, 42borntocode, xavier niel, paris, france, zend framework, zf2, nginx, apache2, chamalieres, nicolas sadirac, jquery, emacs, unix">
     <title>Baptiste Mikaelian</title>
     <link rel="stylesheet" type="text/css" href="/semantic/ui/dist/semantic.css">
     <link rel="stylesheet" type="text/css" href="/styles/style.css">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
     <script src="/semantic/ui/dist/semantic.js"></script>
+    <link rel="stylesheet" href="/plugins/mfizz/font-mfizz.css">
     <script src="/scripts/script.js"></script>
+    <script>
+
+    </script>
 </head>
 <body>
 <div class="main container all">
-    <div class="ui blue inverted large menu three item">
+    <div class="ui blue inverted large menu four item">
         <a class="{% if tab ==  'index' %} active {% endif %} item" href="/">
             <i class="home icon"></i>Home
         </a>
         <a class="item {% if tab ==  'skills' %} active {% endif %}" href="/skills">
             <i class="list icon"></i>Skills
+        </a>
+        <a class="item {% if tab ==  'parcours' %} active {% endif %}" href="/parcours">
+        <i class="student icon"></i>Parcours
         </a>
         <a class="item {% if tab ==  'contact' %} active {% endif %}" href="/contact">
             <i class="mail icon"></i>Contact
