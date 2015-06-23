@@ -1,0 +1,174 @@
+{% extends 'layout.twig' %}
+{% block content %}
+    <div class="ui form inverted">
+        <div class="ui four fields white">
+            <div class="field center">
+                <p>
+                    <i class="icon-mysql huge icon"></i>
+                    <i class="icon-php-alt huge icon"></i>
+                </p>
+
+                <h3 class="ui dividing header">PHP5</h3>
+
+                <p>
+                Framework : <a href="http://framework.zend.com/">Zend 2</a>, <a href="http://fuelphp.com/"> FUEL
+                        PHP</a>, <a href="http://silex.sensiolabs.org/">SILLEX</a>
+                </p>
+
+                <p>
+                IDE : JetBrain's <a href="https://www.jetbrains.com/phpstorm/">PHPStorm </a> , <a
+                href="https://netbeans.org/">NetBeans</a>
+                </p>
+
+                <h4>Projets :</h4>
+
+                <div class="ui styled fluid accordion black message" style="background-color: rgba(0, 0, 0, 0.4);">
+		  <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+             
+                    </div>
+                    <div class="content">
+                        <p>Connection par LDAP, Base de donnee MYSQL, Framework FUEL PHP</p>
+                        <p>
+                        <a href="https://github.com/bmikaeli/intra_42"><i class="github large icon"></i></a>
+                        </p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        BackOffice de <a href="http://testapic.com">Testapic</a>
+                    </div>
+                    <div class="content">
+                        <p>Developpement du nouveau Back-office.</p>
+                        <p>Base de donnee Mysql et Couchbase(no sql)</p>
+                        <p>Framework ZF2</p>
+                        <p>Daily SCUM</p>
+                        <p>Travail en groupe avec gestionnaire de version GIT</p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        Intranet de gestion de projet de l'ecole 42
+                    </div>
+                    <div class="content">
+                        <p>Connection par LDAP, Base de donnee MYSQL, Framework FUEL PHP</p>
+                        <p>
+                        <a href="https://github.com/bmikaeli/intra_42"><i class="github large icon"></i></a>
+                        </p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        Site d'e-commerce simpliste
+                    </div>
+                    <div class="content">
+                        <p>Creation d'une plateforme d'e-commerce tres simpliste avec gestion de panier.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="field center">
+                <p>
+                    <i class="icon-c huge icon"></i>
+                    <i class="icon-cplusplus huge icon"></i>
+                </p>
+
+                <h3 class="ui dividing header">C / C++</h3>
+
+                <p>
+                    IDE : <a href="http://www.sublimetext.com/">Sublime Text 3</a>, <a href="http://www.gnu.org/software/emacs/"> Emacs</a>
+                </p>
+
+                <h4>Projets :</h4>
+                <div class="ui styled fluid accordion black message" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        Space Invaders
+                    </div>
+                    <div class="content">
+                        <p>Developpement en deux joursd'un jeux en scolling verticale sur la base de Space Invaders</p>
+                        <p>C++ / ncurses uniquement</p>
+                        <p>
+                            <img class="ui centered image" src="/picture/SpaceInvaders.png">
+                        </p>
+                        <p>
+                            <a href="https://github.com/bmikaeli/CPP-Pool-42/tree/master/Rush00"><i class="github large icon"></i></a>
+                        </p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        Serveur et client FTP
+                    </div>
+                    <div class="content">
+                        <p>Developpement tres simpliste d'un client et d'un serveur utilisant le protocol FTP</p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                       Lemmin
+                    </div>
+                    <div class="content">
+                        <p>  Initiation a la theorie des graphes
+                            Implementation des algorytmes A* et Djikstra.</p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        RayCasting Wolf3d
+                    </div>
+                    <div class="content">
+                        <p>  Creation d'un clone de jeu du style Doom</p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        42sh
+                    </div>
+                    <div class="content">
+                        <p>Implementation d'un Shell le plus complet possible, sur la base de Bash.</p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        Puissance4
+                    </div>
+                    <div class="content">
+                        <p>Simple jeu de Puissance4, en console, avec creation d'IA qui puisse jouer contre un joueur</p>
+                        <p>
+                            <img class="ui centered image" src="/picture/puissance4.png">
+                        </p>
+                    </div>
+                    <div class="title" style="color: white;">
+                        <i class="dropdown icon"></i>
+                        Printf
+                    </div>
+                    <div class="content">
+                        <p>Implementation avec la plus d'options possible de la fonction Printf</p>
+                    </div>
+                </div>
+            </div>
+            <div class="field center">
+                <p>
+                    <i class="html5 huge icon"></i>
+                    <i class="css3 huge icon"></i>
+                    <i class="icon-javascript huge icon"></i>
+                </p>
+                <h3 class="ui dividing header">HTML5, CSS, JavaScript(Jquery)</h3>
+                <p>
+                    <a href="http://www.highcharts.com/">Highchart</a>, Twitter's BootStrap, <a href="http://semantic-ui.com/">Semantic UI</a>
+                </p>
+            </div>
+            <div class="field center">
+                <p>
+                    <i class="fork huge icon"></i>
+                    <i class="icon-nginx huge icon"></i>
+                    <i class="icon-apache huge icon"></i>
+                    <i class="icon-debian huge icon"></i>
+                </p>
+                <h3 class="ui dividing header">Autres</h3>
+                <p>
+                    GIT / Nginx / Apache / Syslog / Debian
+                </p>
+		<p> 
+		    Docker / Amazon EC2
+		</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.ui.accordion')
+                .accordion();
+    </script>
+{% endblock %}
